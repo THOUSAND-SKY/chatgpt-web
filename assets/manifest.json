@@ -3,5 +3,12 @@
     "short_name": "GPT4",
     "display": "standalone",
     "theme_color": "#131222",
-    "start_url": "index.html"
+    "start_url": "index.html",
+    "icons": [
+        {
+          "src": "./assets/logo.svg",
+          "type": "image/svg+xml",
+          "sizes": "any"
+        }
+    ]
 }
