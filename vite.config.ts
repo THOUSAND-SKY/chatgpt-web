@@ -12,6 +12,12 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
   if (command === 'build') {
     return {
       plugins,
+      rollupOptions: {
+        input: {
+          main: resolve(__dirname, 'index.html'),
+          'service-worker': resolve(__dirname, 'src/sw.js')
+        }
+      },
       css: {
         postcss: {
           plugins: [
