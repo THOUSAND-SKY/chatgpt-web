@@ -1,0 +1,7 @@
+{
+    "name": "GPT4",
+    "short_name": "GPT4",
+    "display": "standalone",
+    "theme_color": "#131222",
+    "start_url": "index.html"
+}
