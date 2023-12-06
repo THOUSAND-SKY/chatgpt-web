@@ -13,7 +13,7 @@ const plugins = [svelte(), dsv(), {
           minify: true,
           bundle: true,
           entryPoints: [join(process.cwd(), "src/sw.js")],
-          outfile: join(process.cwd(), "dist", "sw.js"),
+          outfile: join(process.cwd(), "dist", "assets", "sw.js"),
         });
       },
     }]
