@@ -2,7 +2,7 @@
 import './app.scss'
 import App from './App.svelte'
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("sw.js")
+  navigator.serviceWorker.register("sw.js").then(() => {}).catch(() => {})
 }
 const app = new App({
   target: document.getElementById('app') as HTMLElement
