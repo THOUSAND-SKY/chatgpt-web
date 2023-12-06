@@ -6,7 +6,7 @@
     "start_url": "/chatgpt-web/index.html",
     "icons": [
         {
-          "src": "./assets/logo.svg",
+          "src": "/chatgpt-web/assets/logo.svg",
           "type": "image/svg+xml",
           "sizes": "any"
         }
